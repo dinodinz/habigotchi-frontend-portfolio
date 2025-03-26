@@ -1,50 +1,51 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Habigotchi Habit Tracking Mobile app 
 
-## Get started
+A Habit Tracking mobile app with Pet and AI integration built using Typescript and React Native. This uses the Habigotchi Backend Server to save user, pet and habits data.
 
-1. Install dependencies
+## Minimum required versions:
 
-   ```bash
-   npm install
-   ```
+Node.js = v23.3.0
 
-2. Start the app
+## 🛠 Tech Stack
+- **Node.js** (v23.3.0)
+- **Axios** (v^1.8.2)
+- **Lottie** (for login page animations)
+- **React Native** (v0.76.7)
+- **Expo** (v~52.0.37 to preview the mobile app via Expo Go)
+- **Typescript** (v^5.3.3)
 
-   ```bash
-    npx expo start
-   ```
+## Summary:
 
-In the output, you'll find options to open the app in a
+A mobile app to track your habits with a Pet feature with AI integration for pet interaction. Every habit you tick will give you coin rewards which you can buy foods for your pet keep them happy and healthy. Health an Happiness decrements overtime, thus you need to ensure you finish your Habits on time to take care of your pet.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Dependencies
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+You might need to install the minimum dependency versions shown on the package.json file to avoid any issues when running the app
 
-## Get a fresh project
+If you have installed recent updated versions and are having issues, then installing the exact versions would be the best option.
 
-When you're ready, run:
+To do this you need to use "npm ci" instead of "npm i" as this will install the exact versions on the package.json file.
 
-```bash
-npm run reset-project
-```
+## Setup on your local machine
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+1.) Go here https://github.com/dinodinz/habigotchi-frontend-portfolio
 
-## Learn more
+2.) Grab the HTTPS URL by clicking the green button "<> Code"
 
-To learn more about developing your project with Expo, look at the following resources:
+3.) Go to your machine terminal and run "git clone CODE_URL_HERE"
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+4.) Open the directory inside your IDE
 
-## Join the community
+5.) Run "npm ci" on your terminal to install the exact versions of all dependencies on the package.json file
 
-Join our community of developers creating universal apps.
+6.) Download Expo Go on your mobile phone from the app marketplace.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+6.) Run "npm start" this will run Expo and provide you with a QR code which you can scan using Expo Go app from your phone.
+
+7.) You should now be able to preview the mobile app on your phone.
+
+
+## Important:
+ It may take a few seconds for this project to fetch data on initial render as API endpoints will need to boot up after long periods of inactivity.
+
