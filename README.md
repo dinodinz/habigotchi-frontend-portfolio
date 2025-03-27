@@ -14,6 +14,7 @@ Node.js = v23.3.0
 - **React Native** (v0.76.7)
 - **Expo** (v~52.0.37 to preview the mobile app via Expo Go)
 - **Typescript** (v^5.3.3)
+- **ES6 Module** (syntax used for the whole project)
 
 ## Summary:
 
